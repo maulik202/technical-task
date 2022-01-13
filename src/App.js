@@ -138,7 +138,6 @@ export default class App extends React.Component {
         <div className="list">
           {this.state.sortedRaces.map(item => (
             <ul>
-              {/* TODO: Edit the string below to display the Race number, Meeting name and time to jump */}
               <span className="item"> Race: {item.raceNumber} - Meeting Name: {item.meetingName} - Jumps in: {this.getFormattedTime(item.advertisedStart)}</span>
             </ul>
           ))}
